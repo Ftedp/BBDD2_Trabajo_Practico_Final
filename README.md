@@ -106,7 +106,7 @@ El género femenino supera al masculino en monto de ventas. Los rangos de mayor 
 ```
 ├── DW/
 │   ├── TDC_DW_Create.sql     # DDL completo + 8 stored procedures
-│   └── TDC_DW.bak            # Backup comprimido de la base de datos
+│   └── TDC_DW.bak            # [Descargar backup](https://drive.google.com/file/d/1cCrbPUkimfRfs4SpLGOs5HqN2JY8MdBS/view?usp=drive_link)
 ├── SSIS/
 │   └── TDC_ETL.zip           # Proyecto Visual Studio 2022 con todos los paquetes
 ├── PowerBI/
