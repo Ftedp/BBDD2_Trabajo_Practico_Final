@@ -46,6 +46,8 @@ El modelo sigue una arquitectura estrella con snowflake parcial en la dimensión
 | `FCT_VENTAS` | **1.716.606 filas** — ventas históricas + actuales integradas |
 | `FCT_STOCK` | **984 filas** — movimientos de entrada de stock 2002–2004 |
 
+![Modelo dimensional](img/Captura%20de%20pantalla%202026-06-14%20003603.png)
+
 ### Decisiones de diseño destacadas
 
 **Campos point-in-time en FCT_VENTAS** — `edad_cliente`, `edad_empleado`, `antiguedad_empleado` y `grupo_etario` se calculan a la fecha exacta de cada venta, no en las dimensiones. Esto preserva el contexto histórico: un cliente que tenía 35 años en 2006 no aparece con 39 en registros de ese año.
